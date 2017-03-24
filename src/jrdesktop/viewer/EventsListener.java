@@ -26,8 +26,8 @@ public class EventsListener {
     private FilesDropTargetListener filesDropTargetListener;
     private DropTarget dropTarget;
 
-    private ArrayList<KeyEvent> keyEvents = new ArrayList<KeyEvent>();
-    private ArrayList<MouseEvent> mouseEvents = new ArrayList<MouseEvent>();
+    private ArrayList<KeyEvent> keyEvents = new ArrayList<>();
+    private ArrayList<MouseEvent> mouseEvents = new ArrayList<>();
 
     public EventsListener(Recorder recorder) {
         player = recorder.screenPlayer;
@@ -140,7 +140,7 @@ public class EventsListener {
 
     public void removeAdapters(boolean all) {
         if (!isActive) return;
-        player.removeKeyListener(keyAdapter);
+//        player.removeKeyListener(keyAdapter);
         player.removeMouseWheelListener(mouseWheelListener);
         player.removeMouseMotionListener(mouseMotionAdapter);
         player.removeMouseListener(mouseAdapter);

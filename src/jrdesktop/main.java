@@ -263,6 +263,7 @@ public class main {
                     JOptionPane.PLAIN_MESSAGE, JOptionPane.OK_OPTION);
         } else
             mainFrame.close();
+
         ConnectionDialog.close();
         DirDialog.close();
         SysTray.close();
