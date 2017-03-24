@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DistantHelper:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DistantHelper_jar</output-path>
+    <root id="archive" name="DistantHelper.jar">
+      <element id="module-output" name="DistantHelper" />
+    </root>
+  </artifact>
+</component>

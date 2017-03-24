@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_121" class="java.beans.XMLDecoder">
+ <void id="Serialize" property="owner"/>
+ <object class="org.openvpnsystray.Configuration">
+  <object class="java.io.File">
+   <string>vpn/openvpn.exe</string>
+  </object>
+  <object class="java.io.File">
+   <string>config</string>
+  </object>
+  <object class="java.io.File">
+   <string>pwd.jsl</string>
+  </object>
+  <boolean>false</boolean>
+  <object class="org.openvpnsystray.utils.Serialize" method="loadLocale">
+   <string>US</string>
+  </object>
+  <object class="java.io.File">
+   <string>config.xml</string>
+  </object>
+ </object>
+</java>
