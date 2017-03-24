@@ -140,7 +140,7 @@ public class EventsListener {
 
     public void removeAdapters(boolean all) {
         if (!isActive) return;
-//        player.removeKeyListener(keyAdapter);
+        player.removeKeyListener(keyAdapter);
         player.removeMouseWheelListener(mouseWheelListener);
         player.removeMouseMotionListener(mouseMotionAdapter);
         player.removeMouseListener(mouseAdapter);

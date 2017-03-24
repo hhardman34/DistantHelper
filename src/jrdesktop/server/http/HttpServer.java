@@ -54,6 +54,7 @@ public class HttpServer extends Thread {
         connected = false;
         interrupt();
         stop();
+
     }
 
     @Override
