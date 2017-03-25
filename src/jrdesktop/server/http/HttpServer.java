@@ -28,9 +28,7 @@ public class HttpServer extends Thread {
     @Override
     public void run() {
         try {
-
             connected = true;
-
             // Create a ServerSocket to listen on that port.
             ss = new ServerSocket(RMIServer.serverConfig.http_port);
 
@@ -53,8 +51,6 @@ public class HttpServer extends Thread {
     public void disconnected() {
         connected = false;
         interrupt();
-        stop();
-
     }
 
     @Override
